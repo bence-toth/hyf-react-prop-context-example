@@ -1,7 +1,4 @@
-import {useState} from 'react'
-
-const GreatGrandChild = () => {
-    const [counter, setCounter] = useState(0)
+const GreatGrandChild = ({counter, setCounter}) => {
     return (
         <div>
             <p>Hi I am GreatGrandChild</p>

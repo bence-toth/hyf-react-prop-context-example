@@ -1,4 +1,8 @@
-const GreatGrandChild = ({counter, setCounter}) => {
+import {useContext} from 'react'
+import {CounterContext} from './App'
+
+const GreatGrandChild = ({setCounter}) => {
+    const counter = useContext(CounterContext);
     return (
         <div>
             <p>Hi I am GreatGrandChild</p>

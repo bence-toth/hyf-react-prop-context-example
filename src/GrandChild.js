@@ -1,10 +1,10 @@
 import GreatGrandChild from './GreatGrandChild'
 
-const GrandChild = ({counter, setCounter}) => {
+const GrandChild = ({setCounter}) => {
     return (
         <div>
             <p>Hi I am GrandChild</p>
-            <GreatGrandChild counter={counter} setCounter={setCounter} />
+            <GreatGrandChild setCounter={setCounter} />
         </div>
     );
 }
